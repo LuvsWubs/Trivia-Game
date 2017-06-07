@@ -1,0 +1,98 @@
+body {
+	background-image: url(http://thirdmonk.net/postcont/2014/12/Cortical-Circuitboard2.jpg);
+	color: white;
+	font-size: 28px;
+}
+
+.images {
+	height: 200px;
+	width: 700px;
+	border-color: green;
+}
+
+/*#countDown {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 15px;
+}*/
+
+button {
+	height: 28px;
+	width: 80px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-size: 20px; 
+}
+
+h2 {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	font-size: 28px;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+	font-size: 36px;
+}
+
+.container {
+	width: 400px;
+	height: 215px;
+	margin-left: 900px;
+	margin-top: 100px;
+	background-color: white;
+	color: black;
+	position: fixed;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	font-style: bold; 
+}
+
+#Q1answerFeedback, #Q2answerFeedback, #Q5answerFeedback {
+	display: none;
+	position: absolute;
+	left: 350px;
+	padding: 30px;
+	float: right;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 34px;
+	width: 300px;
+	text-align: center;
+}
+
+#Q3answerFeedback {
+	display: none;
+	position: absolute;
+	left: 350px;
+	float: right;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 34px;
+	width: 300px;
+	text-align: center;
+}
+
+#Q4answerFeedback {
+	display: none;
+	position: absolute;
+	left: 350px;
+	padding-top: 15px;
+	float: right;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 34px;
+	width: 300px;
+	text-align: center;
+}

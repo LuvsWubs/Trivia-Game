@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="triviaGame.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous">
+	</script>
+    <title>trivia game</title>
+  </head>
+  <body>
+  	<script type="text/javascript" src="triviaGame.js"></script>
+  	<div>
+  	<h2>Fast recognition of stroke symptoms can save a life. Every second counts.</h2>
+	<h1>Can you successfully recognize the symptoms of a stroke before time runs out?</h1>
+  	</div>
+	<div class="container">
+		<div><h3>Time Remaining: <p id="countDown"></p><h3></div>
+		<br>
+		<div>Correct guesses: <em id="correctGuesses"></em></div>
+		<div>Incorrect guesses: <em id="incorrectGuesses"></em></div>
+		<div>Total questions guessed correctly: <em id="totalGuessesRight"></em></div>
+	</div>	
+	<br>
+	<div class="images">
+	  	<img id="Q1" src="http://wegetyouhealthy.com/wp-content/uploads/2011/12/Headache-300x300.jpg">
+	  		<span id="Q1answerFeedback">"Great job! A sign of stroke is a sudden severe headache with no obvious cause."</span>
+			<button class ="true" id="Q1true" onclick="Q1true()">True</button>
+	  		<button class="false" onclick="Q1false()">False</button>
+
+	  	<img id="Q2" src="http://www.vitalvitamins.us/wp-content/uploads/2016/11/vision-300x300.jpg">
+	  		<span id="Q2answerFeedback">"Sudden onset disturbances in vision could indicate a stroke! Nice work!"</span>
+	  		<button class ="true" id="Q2true" onclick="Q2true()">True</button>
+	  		<button class="false" onclick="Q2false()">False</button>
+
+	  	<img id="Q3" src="http://lisadeck.com/wp-content/uploads/2016/05/Arm-Weakness-300x300.jpg">
+	  		<span id="Q3answerFeedback">"If someone becomes weak or numb in one of their arms or legs, check for strength in the affected limb. This is a sign of stroke!"</span>
+	  		<button class ="true" id="Q3true" onclick="Q3true()">True</button>
+	  		<button class="false" onclick="Q3false()">False</button>
+
+	  	<img id="Q4" src="http://www.northoaks.org/images/news-network/Stroke-Woman.jpg">
+	  		<span id="Q4answerFeedback">"Great job! Sudden facial droop can indicate a stroke! Ask the person to smile, if they can't, call for help!"</span>
+			<button class ="true" id="Q4true" onclick="Q4true()">True</button>
+	  		<button class="false" onclick="Q4false()">False</button>
+
+	  	<img id="Q5" src="http://afashionablemind.net/wp-content/uploads/2016/11/xconfused-man-300x300.jpg.pagespeed.ic.9BR4k3mgNC.jpg">
+	  		<span id="Q5answerFeedback">"Sudden confusion, trouble speaking or understanding speech is a sign of stroke. Nice work! "</span>
+			<button class ="true" id="Q5true" onclick="Q5true()">True</button>
+	  		<button class="false" onclick="Q5false()">False</button>
+  	</div>	
+  </body>
+</html>  	
